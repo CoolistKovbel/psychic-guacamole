@@ -1,4 +1,4 @@
-# Crypto Refferal
+# start guide v1
 
 Basically this is going to be a cool refferal website. Single Page Application where it will display some frontend. I need some funding so if you are interested check out **crypto.com/y8yjabr8my**
 
