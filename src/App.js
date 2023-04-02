@@ -1,12 +1,13 @@
 import "./App.css";
 import Hero from "./components/Hero";
+import MainFooter from "./components/MainFooter";
 import MainHeader from "./components/MainHeader";
 
 function App() {
   return (
     <div className="App">
       {/* Header */}
-      <MainHeader />
+      <MainFooter />
 
       {/* <aside>
         <p>
@@ -103,14 +104,7 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="main-footer">
-        <p>copyright &copy;2023 coolistkovbel</p>
-        <div className="main-footer-socials">
-          <p>
-            <small>ghostieve.bit</small>
-          </p>
-        </div>
-      </footer>
+      <MainHeader />
     </div>
   );
 }
