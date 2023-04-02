@@ -105,20 +105,11 @@ function App() {
       {/* Footer */}
       <footer className="main-footer">
         <p>copyright &copy;2023 coolistkovbel</p>
-        <ul className="main-footer-socials">
-          <li>
-            <a href="http://www.reddit.com/u/d3_g3nt3lm4n" target="_blank">
-              3️⃣
-            </a>
-          </li>
-
-          <li href="http://www.twitter.com/lyub24" target="_blank">
-            <a>2️⃣</a>
-          </li>
-          <li href="https://www.github.com/shpintz0G" target="_blank">
-            <a>1️⃣</a>
-          </li>
-        </ul>
+        <div className="main-footer-socials">
+          <p>
+            <small>ghostieve.bit</small>
+          </p>
+        </div>
       </footer>
     </div>
   );
