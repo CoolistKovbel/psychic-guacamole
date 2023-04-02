@@ -69,3 +69,19 @@
   width: 100%;
   margin-bottom: 5px;
 }
+
+.main-footer{
+  text-align: center;
+  padding: 10px;
+  background: rgb(179, 117, 2);
+}
+
+.main-footer-socials{
+  margin-top: 5px;
+  list-style-type: none;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}

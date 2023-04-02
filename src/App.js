@@ -107,13 +107,16 @@ function App() {
         <p>copyright &copy;2023 coolistkovbel</p>
         <ul className="main-footer-socials">
           <li>
-            <a>Reddit</a>
+            <a href="http://www.reddit.com/u/d3_g3nt3lm4n" target="_blank">
+              3️⃣
+            </a>
           </li>
-          <li>
-            <a>Twitter</a>
+
+          <li href="http://www.twitter.com/lyub24" target="_blank">
+            <a>2️⃣</a>
           </li>
-          <li>
-            <a>Github</a>
+          <li href="https://www.github.com/shpintz0G" target="_blank">
+            <a>1️⃣</a>
           </li>
         </ul>
       </footer>
