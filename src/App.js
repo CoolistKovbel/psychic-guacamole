@@ -1,4 +1,5 @@
 import "./App.css";
+import Hero from "./components/Hero";
 import MainHeader from "./components/MainHeader";
 
 function App() {
@@ -19,22 +20,7 @@ function App() {
       </aside> */}
 
       {/* Hero  */}
-      <div id="home" className="hero-dashboard">
-        {/*
-          image may will be in the background with content on within the block itself
-          it will be wrapped
-        */}
-
-        <div className="hero-dashboard-box-content">
-          <h1>deGspot</h1>
-          <p>
-            Remeber this is basically going to be a one page application. Just
-            scroll down and save this or book mark this. I will update this a
-            little better if anything.
-          </p>
-          <a>⬇️⬇️⬇️</a>
-        </div>
-      </div>
+      <Hero />
 
       {/* Sections */}
       <main className="sections">
