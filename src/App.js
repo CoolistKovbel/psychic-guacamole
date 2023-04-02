@@ -1,11 +1,13 @@
 import "./App.css";
+import MainHeader from "./components/MainHeader";
 
 function App() {
   return (
     <div className="App">
       {/* Header */}
-      <header>
-        <h2>Getting Started with crypto</h2>
+      <MainHeader />
+
+      {/* <aside>
         <p>
           Feel like there are a ton of ways to start. Many opportunities and
           roads for everyone. Nervos? If so dont, its power to the plays baby so
@@ -14,26 +16,7 @@ function App() {
           how or what that means. Dont worry, I am setting up a blog, anyone who
           is sign up will recieve early bird updates. You know slow and steady.{" "}
         </p>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#setup">Setup</a>
-            </li>
-            <li>
-              <a href="#requirements">Requirements</a>
-            </li>
-            <li>
-              <a href="#contact">PM</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      </aside> */}
 
       {/* Hero  */}
       <div id="home" className="hero-dashboard">
@@ -123,12 +106,31 @@ function App() {
               But I guess in like other terms, you have a phone, or computer, or
               even a tablet.
             </p>
+            <p>Follow me on twitter and stay tune.</p>
           </div>
         </section>
 
         {/* contact me */}
-        <section id="contact"></section>
+        <section id="contact">
+          <header>Contact Me</header>
+        </section>
       </main>
+
+      {/* Footer */}
+      <footer className="main-footer">
+        <p>copyright &copy;2023 coolistkovbel</p>
+        <ul className="main-footer-socials">
+          <li>
+            <a>Reddit</a>
+          </li>
+          <li>
+            <a>Twitter</a>
+          </li>
+          <li>
+            <a>Github</a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
